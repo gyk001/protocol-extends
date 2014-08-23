@@ -19,7 +19,8 @@ public class HandlerTest {
 				new Object[] { "/folder/classpath test.txt","文件名包含空格资源" },
 				new Object[] { "/folder/classpath-测试.txt","中文目录资源" },
 				new Object[] { "/folder/classpath 测试.txt","中文件名包含空格资源" },
-				new Object[] { "/anthor-folder/../folder/classpath 测试.txt","上级目录(../)资源" }
+				new Object[] { "/anthor-folder/../folder/classpath 测试.txt","上级目录(../)资源" },
+				new Object[] { "/anthor-folder/../folder/../anthor-folder/abc.txt","多上级目录(../)资源" }
 				
 		};
 	}
